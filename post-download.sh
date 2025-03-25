@@ -10,7 +10,7 @@ echo 'KEY=secretshhhh' >>src/.env
 echo 'KEY=secretshhhh' >>src/.env
 curl 'https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1000&h=667&crop=1&resize=1000%2C667' --output res/hidden.png
 echo 'John\nAlice\nBob\nMichael' >>sensitive/names.txt
-touch sensitive/sensitive_{1..100}.txt
+touch sensitive/sensitive_{1..5}.txt
 
 echo 'sensitive/' >>.gitignore
 echo 'res/hidden.png' >>.gitignore
