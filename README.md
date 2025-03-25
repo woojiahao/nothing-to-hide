@@ -18,7 +18,7 @@ You should have a set of files available in your local repository. Use your file
 
 ### Task 1
 
-Use tools like `git status` to find the files that are missing from Git but are still found on your local repository.
+Use tools like `git status -u` to find the files that are missing from Git but are still found on your local repository.
 
 In `answers.txt`, list them out as follows:
 
