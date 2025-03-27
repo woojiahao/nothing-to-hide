@@ -1,6 +1,7 @@
 Q: What files are missing from Git, but found on your local repository?
 A:
--
+- sensitive/sensitive_1.txt
+- src/.env
 
 Q: What is responsible for the hidden files?
 A: ...
