@@ -1,0 +1,4 @@
+sensitive/*
+res/hidden.png
+src/.env
+!sensitive/names.txt
